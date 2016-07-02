@@ -16,7 +16,9 @@ For example:
 
 Write the possibilities for each part in one file per part. Name them e.g. "file1.txt", "file2.txt" and "file3.txt"
 
+
 Then run the program from the commandline:
+
 python pw_creator.py file1.txt file2.txt file3.txt
 
 This will create another file named "wordlist.txt" with all unique possible combinations.
@@ -26,8 +28,10 @@ You can use as much text-files for input as you like.
 
 
 The program pw_diff.py substracts words from wordlist1.txt, that already occure in wordlist2.txt:
+
 python pw_diff.py wordlist1.txt wordlist2.txt
 
 
 The program pw_unify.py combines two wordlists. Multiple occurences of words/lines are being ingnored.
+
 python pw_unify.py wordlist1.txt wordlist2.txt
